@@ -1,9 +1,12 @@
-import { Button } from "./components/ui/button";
+import { WelcomeScreen } from "./components/WelcomeScreen";
 
-export default function App() {
+function App() {
+  const handleStart = () => {};
   return (
-    <h1 className="flex h-screen items-center justify-center">
-      <Button>Funcionou</Button>
-    </h1>
-  );
+  <div>
+    <WelcomeScreen onStart={handleStart} />
+  </div>
+  )
 }
+
+export default App;

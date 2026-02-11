@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 import { Button } from "./ui/button";
 
-interface EndSreenProps {
+interface EndScreenProps {
   OnRestart: () => void;
 }
 
-export const EndSreenProps = ({ OnRestart }: EndSreenProps) => {
+export const EndScreen = ({ OnRestart }: EndScreenProps) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
